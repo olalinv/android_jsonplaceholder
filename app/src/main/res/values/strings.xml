@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">JSONPlaceholderApp</string>
+    <string name="app_name">JSON Placeholder</string>
+    <string name="main_activity_title">Posts</string>
 </resources>

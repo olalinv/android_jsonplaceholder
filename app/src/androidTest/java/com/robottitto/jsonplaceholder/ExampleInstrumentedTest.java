@@ -1,4 +1,4 @@
-package com.robottitto.jsonplaceholderapp;
+package com.robottitto.jsonplaceholder;
 
 import android.content.Context;
 
