@@ -4,7 +4,7 @@ Consume the JSONPlaceholder REST API from Android.
 
 ## Installation
 
-Clone the [project](https://github.com/robottitto/android_jsonplaceholder.git) fron GitHub.
+Clone the [project](https://github.com/robottitto/android_jsonplaceholder.git) from GitHub.
 
 ```bash
 git clone https://github.com/robottitto/android_jsonplaceholder
