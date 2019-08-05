@@ -7,7 +7,7 @@ public class Post {
     private String body;
 
     public int getUserId() {
-        return userId;
+        return this.userId;
     }
 
     public void setUserId(int userId) {
@@ -15,7 +15,7 @@ public class Post {
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
@@ -23,7 +23,7 @@ public class Post {
     }
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public void setTitle(String title) {
@@ -31,10 +31,15 @@ public class Post {
     }
 
     public String getBody() {
-        return body;
+        return this.body;
     }
 
     public void setBody(String body) {
         this.body = body;
+    }
+
+    @Override
+    public String toString() {
+        return this.title;
     }
 }

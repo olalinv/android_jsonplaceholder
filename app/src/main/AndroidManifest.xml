@@ -11,8 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".post.PostsActivity"></activity>
         <activity
-            android:name="com.robottitto.jsonplaceholder.MainActivity">
+            android:name=".post.PostDetailActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
